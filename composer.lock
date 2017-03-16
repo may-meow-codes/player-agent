@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ad76c25bed49d33b68d32b7a17f92792",
+    "packages": [
+        {
+            "name": "may-meow-cloud/socket-server",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/may-meow-cloud/socket-server.git",
+                "reference": "009bfa1d0d759f881ab7fb761354e7156779b095"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/may-meow-cloud/socket-server/zipball/009bfa1d0d759f881ab7fb761354e7156779b095",
+                "reference": "009bfa1d0d759f881ab7fb761354e7156779b095",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MayMeow\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Charlotta Jung",
+                    "email": "may+work@maymeow.click"
+                }
+            ],
+            "description": "API",
+            "time": "2017-03-11T18:43:18+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
