@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "may-meow-cloud/socket-server",
-            "version": "v0.0.1",
+            "version": "v0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/may-meow-cloud/socket-server.git",
-                "reference": "009bfa1d0d759f881ab7fb761354e7156779b095"
+                "reference": "c4742eb68c8d52264f02225d98e7de6f283c3e57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/may-meow-cloud/socket-server/zipball/009bfa1d0d759f881ab7fb761354e7156779b095",
-                "reference": "009bfa1d0d759f881ab7fb761354e7156779b095",
+                "url": "https://api.github.com/repos/may-meow-cloud/socket-server/zipball/c4742eb68c8d52264f02225d98e7de6f283c3e57",
+                "reference": "c4742eb68c8d52264f02225d98e7de6f283c3e57",
                 "shasum": ""
             },
             "type": "library",
@@ -37,7 +37,7 @@
                 }
             ],
             "description": "API",
-            "time": "2017-03-11T18:43:18+00:00"
+            "time": "2017-03-18T21:29:49+00:00"
         }
     ],
     "packages-dev": [],

@@ -20,8 +20,9 @@ require_once 'vendor/autoload.php';
 $server = new \MayMeow\SocketServer('tcp://0.0.0.0:9878');
 
 // Add Actions
-$server->addAction('Play', new \MayMeowCodes\SoundPlayer\Actions\PlayAction());
-$server->addAction('Stop', new \MayMeowCodes\SoundPlayer\Actions\StopAction());
+$server->addAction(new \MayMeowCodes\SoundPlayer\Actions\PlayAction());
+$server->addAction(new \MayMeowCodes\SoundPlayer\Actions\StopAction());
+$server->addAction(new \MayMeowCodes\SoundPlayer\Actions\RegisterAction());
 
 // Start Server
 $server->connect();

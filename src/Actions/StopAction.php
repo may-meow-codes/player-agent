@@ -20,6 +20,12 @@ use MayMeow\Actions\AbstractAction;
 
 class StopAction extends AbstractAction
 {
+    protected function configure()
+    {
+        $this
+            ->setName('Stop');
+    }
+
     /**
      * Function Stop
      * Stops playing
